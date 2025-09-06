@@ -1,5 +1,6 @@
 import streamlit as st
 from backend.theme import apply_theme  
+apply_theme()
 from backend.generator import generate_doc
 from backend.quiz import generate_quiz, evaluate_quiz
 from backend.rag import fetch_context
